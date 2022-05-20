@@ -6,10 +6,15 @@
 
   color: white;
   max-width: 560px;
+  box-sizing: border-box;
 
-  grid-column: 1;
-  grid-row: 1;
-  z-index: 3;
+  padding:0;
+  margin: 0 auto;
+}
 
-  padding-bottom: 10%;
+@media screen and (max-width: 560px) {
+  .cover__title{
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

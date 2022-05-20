@@ -1,0 +1,5 @@
+.cover__caption{
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 3;
+}

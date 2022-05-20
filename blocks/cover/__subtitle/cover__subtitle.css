@@ -6,10 +6,17 @@
   text-align: center;
   color: #fff;
 
-  max-width: 360px;
-  grid-column: 1;
-  grid-row: 1;
-  z-index: 4;
+  box-sizing: border-box;
+  padding: 32px 0 0 0;
+  margin: 0 auto;
 
-  padding-top: 15%;
+  max-width: 360px;
+}
+
+@media screen and (max-width: 560px) {
+  .cover__subtitle{
+    font-size: 14px;
+    line-height: 16px;
+    padding: 16px 0 0 0;
+  }
 }

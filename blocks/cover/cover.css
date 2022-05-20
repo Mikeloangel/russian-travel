@@ -14,5 +14,17 @@
   opacity: .8;
 }
 
+@media screen and (max-width: 1024px) {
+  .cover{
+    max-width: 100%;
+    padding: 92px 0 0 0;
+  }
+}
 
+@media screen and (max-width: 320px) {
+  .cover{
+    max-width: 100%;
+    padding: 66px 0 0 0;
+  }
+}
 
