@@ -1,0 +1,35 @@
+.places__place{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content 1fr;
+    gap: 40px 48px;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__place{
+        gap: 32px 48px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .places__place{
+        gap: 28px 48px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .places__place{
+        gap: 0;
+        grid-template-columns: 1fr;
+    }
+
+}
+

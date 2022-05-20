@@ -1,0 +1,11 @@
+.places__image{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@media screen and (max-width:520px) {
+  .places__image{
+    padding: 32px 0 0 0;
+  }
+}
