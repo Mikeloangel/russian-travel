@@ -1,0 +1,22 @@
+.lead__figure{
+    width: 100%;
+    margin: 0;
+    padding: 64px 0 0 0;
+    height: fit-content;
+
+    position: relative;
+}
+
+@media screen and (max-width: 1280px) {
+    .lead__figure{
+        padding: 56px 0 0 0;
+    }
+    
+}
+
+@media screen and (max-width: 340px) {
+    .lead__figure{
+        padding: 40px 0 0 0;
+    }
+    
+}

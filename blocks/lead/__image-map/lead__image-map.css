@@ -1,0 +1,7 @@
+.lead__image-map {
+    width: 90%;    
+    
+    position: absolute;
+    top: calc(64px + 14%);
+    left: 5%;
+}
