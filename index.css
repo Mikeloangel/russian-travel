@@ -25,5 +25,7 @@
 @import url(./blocks/intro/__list-item/intro__list-item.css);
 @import url(./blocks/intro/__list-item-accent/intro__list-item-accent.css);
 
+@import url(./blocks/photo-grid/photo-grid.css);
+@import url(./blocks/photo-grid/__item/photo-gid-item.css);
 
-.photo-grid, .photo-grid *{box-shadow: inset 0 0 5px #555;}/**/
+.places, .places *{box-shadow: inset 0 0 5px #555;}/**/
