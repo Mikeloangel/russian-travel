@@ -17,5 +17,13 @@
 @import url(./blocks/lead/__image-map/lead__image-map.css);
 @import url(./blocks/lead/__caption/lead__caption.css);
 
-/*
-*{box-shadow: inset 0 0 5px #555;}/**/
+
+@import url(./blocks/intro/intro.css);
+@import url(./blocks/intro/__title/intro__title.css);
+@import url(./blocks/intro/__text/intro__text.css);
+@import url(./blocks/intro/__list/intro__list.css);
+@import url(./blocks/intro/__list-item/intro__list-item.css);
+@import url(./blocks/intro/__list-item-accent/intro__list-item-accent.css);
+
+
+.photo-grid, .photo-grid *{box-shadow: inset 0 0 5px #555;}/**/
