@@ -8,3 +8,7 @@
   line-height: 22px;
   text-decoration-line: underline;
 }
+
+.places__link:hover{
+  opacity: .8;
+}

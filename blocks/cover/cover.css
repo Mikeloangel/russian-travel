@@ -1,0 +1,18 @@
+.cover{
+  max-width: min(1280px, calc(100% - 96px));
+  margin: 0 auto;
+  padding: 92px 0 0 0;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.cover:hover .cover__overlay{
+  opacity: .8;
+}
+
+
+
