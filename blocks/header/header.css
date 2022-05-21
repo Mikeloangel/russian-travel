@@ -2,7 +2,7 @@
     max-width: min(1280px, calc(100% - 96px));
     height: 52px;
     padding-top: 28px;
-    margin-inline: auto;
+    margin: auto;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -20,5 +20,5 @@
         height: 42px;
         padding-top: 16px;
     }
-    
+
 }

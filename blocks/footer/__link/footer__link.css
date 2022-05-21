@@ -1,0 +1,29 @@
+.footer__link{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #fff;
+  text-decoration: none;
+  padding: 0 18px 0 0;
+}
+
+.footer__link:last-of-type{
+  padding: 0;
+}
+
+.footer__link:hover{
+  opacity: .8;
+}
+
+
+@media screen and (max-width:725px) {
+  .footer__link{
+    display: block;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 0 0 64px 0;
+  }
+
+}
