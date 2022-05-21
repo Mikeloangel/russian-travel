@@ -3,13 +3,13 @@
     height: 213px;
     object-fit: cover;
     object-position: center;
-    
+
 }
 
 @media screen and (max-width: 1024px) {
     .photo-grid__item{
         height: 225px;
-    }    
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
     .photo-grid__item{
         height: 216px;
     }

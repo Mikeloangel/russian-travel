@@ -13,7 +13,6 @@
   .footer{
     padding: 89px 0 24px 0;
     max-width: calc(100% - 48px);
-    flex-direction: row;
   }
 }
 

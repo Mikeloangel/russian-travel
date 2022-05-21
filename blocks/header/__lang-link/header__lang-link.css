@@ -10,10 +10,9 @@
 }
 
 @media screen and (max-width: 340px) {
-    .header__lang-link{        
+    .header__lang-link{
         font-size: 18px;
-        line-height: 20px;        
-        padding-left: 18px;
+        line-height: 20px;
     }
 
 }

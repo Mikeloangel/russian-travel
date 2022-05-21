@@ -12,7 +12,6 @@
 @media screen and (max-width: 1024px) {
     .places__place{
         gap: 32px 48px;
-        grid-template-columns: 1fr 1fr;
     }
 
 }
@@ -20,7 +19,6 @@
 @media screen and (max-width: 768px) {
     .places__place{
         gap: 28px 48px;
-        grid-template-columns: 1fr 1fr;
     }
 
 }

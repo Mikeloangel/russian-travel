@@ -2,7 +2,7 @@
     background-color: #2A2C2F;
     margin: 0;
     padding: 0;
-    width:100%;
+    width: 100%;
     height: 100%;
 
     font-family: 'Inter', sans-serif;
@@ -11,8 +11,8 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%; 
+    -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
 
- 
+
 }
