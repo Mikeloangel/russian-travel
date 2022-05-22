@@ -1,18 +1,21 @@
 .cover{
   max-width: min(1280px, calc(100% - 96px));
   margin: 0 auto;
-  padding: 92px 0 0 0;
 
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  justify-items: center;
-  align-items: center;
+  background-image: url(../../images/cover_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  position: relative;
+
+  padding: 30% 0;
+
 }
 
 .cover:hover .cover__overlay{
   opacity: .8;
 }
+
 
 @media screen and (max-width: 1024px) {
   .cover{
@@ -20,10 +23,8 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .cover{
-    max-width: 100%;
-    padding: 66px 0 0 0;
-  }
-}
-
+/**********DONT**************/
+/**********FORGET************/
+/*.cover__link{text-decoration: none;}*/
+/**********DONT**************/
+/**********REGRET************/

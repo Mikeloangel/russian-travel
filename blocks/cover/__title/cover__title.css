@@ -9,13 +9,12 @@
   max-width: 560px;
   box-sizing: border-box;
   text-decoration: none;
-  display: inline-block;
 
   padding:0;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 520px) {
   .cover__title{
     font-size: 32px;
     line-height: 35px;

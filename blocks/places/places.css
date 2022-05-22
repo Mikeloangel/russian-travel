@@ -1,7 +1,7 @@
 .places{
     max-width: min(1280px, calc(100% - 296px));
     margin: 0 auto;
-    padding: 92px 0 0 0;
+    padding: 92px 0 92px 0;
     display: grid;
     gap: 80px;
 }
@@ -15,7 +15,7 @@
 @media screen and (max-width: 768px ) {
     .places{
         max-width: calc(100% - 48px);
-        padding: 88px 0 0 0;
+        padding: 88px 0 88px 0;
         gap: 73px;
     }
 }
@@ -23,7 +23,7 @@
 @media screen and (max-width: 320px ) {
     .places{
         max-width: 100%;
-        padding: 64px 0 0 0;
+        padding: 64px 0 66px 0;
         gap: 50px;
     }
 }

@@ -9,11 +9,12 @@
   box-sizing: border-box;
   padding: 32px 0 0 0;
   margin: 0 auto;
+  text-decoration: none;
 
   max-width: 360px;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 520px) {
   .cover__subtitle{
     font-size: 14px;
     line-height: 16px;
