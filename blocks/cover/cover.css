@@ -21,7 +21,7 @@
 }
 
 /*a little nicier for even bigger screens */
-@media screen and (min-width:1280px) {
+@media screen and (min-width:1285px) {
   .cover{
     padding-top: 740px;
   }
