@@ -1,12 +1,12 @@
 .lead{
-    max-width: min(1280px, calc(100% - 296px));
-    margin-inline: auto;
+    max-width: min(984px, calc(100% - 296px));
+    margin: 0 auto;
     padding: 56px 0 0 0;
 }
 
 @media screen and (max-width: 1024px ) {
     .lead{
-        max-width: min(1280px, calc(100% - 96px));
+        max-width: calc(100% - 96px);
         padding: 48px 0 0 0;
     }
 }

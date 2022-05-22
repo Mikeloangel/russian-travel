@@ -1,6 +1,6 @@
 .lead__figure{
-    width: 100%;
-    margin: 0;
+    max-width: 100%;
+    margin: 0 auto;
     padding: 64px 0 0 0;
     height: fit-content;
 
@@ -11,12 +11,12 @@
     .lead__figure{
         padding: 56px 0 0 0;
     }
-    
+
 }
 
 @media screen and (max-width: 340px) {
     .lead__figure{
         padding: 40px 0 0 0;
     }
-    
+
 }
