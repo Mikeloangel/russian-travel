@@ -1,28 +1,10 @@
 .cover{
   max-width: min(1184px, calc(100% - 96px));
   margin: 0 auto;
-
-  background: url(../../images/cover_bg.jpg) no-repeat center;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 62.5%;
-
-  position: relative;
-}
-
-.cover:hover .cover__overlay{
-  opacity: .8;
 }
 
 @media screen and (max-width: 1024px) {
   .cover{
     max-width: 100%;
-  }
-}
-
-/*a little nicier for even bigger screens */
-@media screen and (min-width:1285px) {
-  .cover{
-    padding-top: 740px;
   }
 }
